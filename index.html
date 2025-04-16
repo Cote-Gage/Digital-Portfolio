@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width", inital-scale="1.0">
     <title> Digital Portfolio Website </title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -47,8 +48,8 @@
             <div class="btn-sci">
                 <a href="#" class="btn">Download CV</a>
                 <div class="sci">
-                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAm9JREFUSEvFlU2IjlEUx39/kQ1ZIMkS5XOKZKGmiBI2hmKkKBn5Sk0yPko0+WgojeQj7AglzIYdCwuUiHyWSRYWPposTApxPGe6z3TfO8/7zjOLydm87z33f+7/nnPP+T9ikE2DfD41CcxsGLAcWALMBCZDT8wH4DlwJ/PfkPS72kWrEpjZIuAsMKmfLN8DmyTdLcIVEpjZbuBouG2ZKv4F9kg6noL7EJhZC9BW5tQCTLOk9thfQWBmCwBP1f1e3w3AFmA/MAToBLzeUwG/9RHgDHAKWBl89ZIe5CS9BGY2HHgFTAybrZIO+H8z83f4LOl7WI8Axkt6F9b7gMMh7jVQJ+mPr2OC1cC1KL12Sc1lSmVmx4BdEXaZJK9ABcFlYG0EmifpYUmCuqydn0XnnZa0PSXw8kzL05Q0vczhOcbMngCzw/pxlsHclOALMDYAOiQ1DJDgCrAmxHRJGpMSfMoGa1wA3JO0cIAEt4GlIaZb0siU4CkwKwC8W0bXkoCYPEjKV2BU8L+V5K1c8cgXgI1RYJOki2WyMLMm4HyEvSRpXUrgNb8JfAO6vc99/F2PJP0oIjIzn4dtYeB8EHNblTXJ9ZTAZ8I7aQKwGNgMrAd+halulPTTg0JJbgXc0IT8DTBDkk96pVyb2QqX36xUH4E5YfDmhyy2JnW/CjQWZNYgqSP3F4ndSWCH64+kQ9XewMwOZsn0SElkJzI52Rk7qsm1i1srcD8TsRfAS0nnkgx833G5tZSS6xxtZvWAS69PZ5skf/BeMzNX0r3AI8Bl2n/7WH+fTN/3T2anJM8kJpjisi3JH7uq/d+Pfq2bld37B8MT0hliYf0NAAAAAElFTkSuQmCC"/></a>
-                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATdJREFUSEvtlU8rRUEYh5/nqls2SKGUDQsLUbLypyx8CSUrn8LK3pewkY8hCymytpAoC4lS14KiDKO5t3HcLO65x4a3ZnHeOfN7Zn7vO41UHFaszzdACGE0QtWbbsC/AEIIe8BqEt5RN8pCWoAQQh9wD9ST6AswrDbKQHJAP3BXAAypj10BRJFKLWrusuoiL2QWPavH6WSzQLQwxpN6EkIYBJaAaaAH2FMvinYWu+gWGEk/XaoTCXAILKb8+YebW1EwdnMm+AZsqts5pBPAA9CbRrv6r6j7zYlOAM21EXQNzAC1jBStWisL2FXXk33LwEEGOFOnygIm1ViLzwghxJOMpc+GOlAWUFdfM8ApMNcS1Zb1P9XgSh1v00UxVVNDBjgC5v8BzYv2ly1qd+/L5n7/0S+74+L6dyPA0RlSfBqGAAAAAElFTkSuQmCC"/></a>
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
                 </div>
             </div>
         </div>
@@ -68,16 +69,47 @@
             <div class="resume-box">
                 <h2>Why Hire Me?</h2>
                 <p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, reprehenderit expedita?</p>
-                <button class="resume-btn">Experiences</button>
+                <button class="resume-btn active">Experiences</button>
                 <button class="resume-btn">Education</button>
                 <button class="resume-btn">Skills</button>
                 <button class="resume-btn">About Me</button>
             </div>
 
             <div class="resume-box">
-                <div class="resume-detail experience">
+                <div class="resume-detail experience active">
                     <h2 class ="heading">My <span>Experience</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odio fuga magni tenetur unde totam vero omnis ab hic nobis?</p>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odio fuga magni tenetur unde totam vero omnis ab hic nobis?</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2021 - Present</p>
+                            <h3>Meat Clerk</h3>
+                            <p class="company">Market Basket</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ab!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail education">
+                    <h2 class ="heading">My <span>Education</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odio fuga magni tenetur unde totam vero omnis ab hic nobis?</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2022 - Present</p>
+                            <h3>Info Tech Services Student</h3>
+                            <p class="company">Greater Lowell Technical High School</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, illum.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class ="heading">My <span>Skills</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odio fuga magni tenetur unde totam vero omnis ab hic nobis?</p>
+                </div>
+
+                <div class="resume-detail about">
+                    <h2 class ="heading">About <span>Me</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odio fuga magni tenetur unde totam vero omnis ab hic nobis?</p>
                 </div>
             </div>
         </div>
