@@ -17,7 +17,7 @@ section {
     width: 100%;
     height: 100%;
     padding: 10rem 9% 2rem;
-    background-color: #1f242d;
+    background-color: #000000;
     visibility: hidden;
     opacity: 0;
     overflow: hidden;
@@ -158,7 +158,7 @@ section.active {
     border-radius: 40px;
     box-shadow: 0 0 10px #7700ff;
     font-size: 16px;
-    color: #1f242d;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -184,7 +184,7 @@ section.active {
 
 .home-info .btn-sci .sci a:hover {
     background: #7700ff;
-    color: #1f242d;
+    color: #000000;
     box-shadow: 0 0 10px #7700ff;
 }
 
@@ -301,8 +301,8 @@ section.active {
 .resume-box .resume-btn {
     width: 100%;
     height: 5.3rem;
-    background-color: #2e3542;
-    border: .2rem solid #2e3542;
+    background-color: #1f242d;
+    border: .2rem solid #1f242d;
     font-size: 1.6rem;
     color: #fff;
     font-weight: 500;
@@ -351,7 +351,7 @@ section.active {
 }
 
 .resume-list .resume-item {
-    background-color: #2e3542;
+    background-color: #1f242d;
     border-radius: .8rem;
     padding: 3rem 2.5rem;
     height: calc((45rem - 2rem) / 2);
