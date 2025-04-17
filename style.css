@@ -27,7 +27,7 @@ section.active {
     visibility: visible;
     opacity: 1;
     overflow: auto;
-    color: #fff;
+    color: #fff;  
 }
 
 .navbar {
