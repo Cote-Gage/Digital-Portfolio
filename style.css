@@ -538,13 +538,14 @@ nav a.active {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 100%;
-    gap: 2rem;
+    gap: 5rem;
     height: inherit;
     transition: .5s;
 }
 
 .project-carousel .img-item {
     height: inherit;
+    gap: 2rem;
     display: flex;
 }
 
