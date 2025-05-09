@@ -496,7 +496,7 @@ nav a.active {
     display: flex;
     gap: 1.5rem;
     height: 24rem;
-    width: 24rem;
+    width: 35rem;
 }
 
 .awards-container .awards-img-item img {
