@@ -128,8 +128,8 @@ nav a.active {
     display: inline-block;
     color: transparent;
     -webkit-text-stroke: .7px #7700ff;
-    animation: display-text 16s linear infinite;
-    animation-delay: calc(-4s * var(--i));
+    animation: display-text 15s linear infinite;
+    animation-delay: calc(-3s * var(--i));
 }
 
 @keyframes display-text {
